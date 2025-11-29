@@ -1,30 +1,28 @@
-\# Image Segmentation Project
+This project demonstrates how deep learning can be used to segment disaster-affected regions from satellite images. The workflow includes:
 
+Loading and preprocessing satellite images
 
+Applying U-Net architecture for segmentation
 
-This project performs image segmentation using a deep learning U-Net model trained in Google Colab.
+Training, validating, and evaluating the model
 
+Generating prediction masks
 
+Comparing model output with ground truth
 
-\## Contents
+Below is a high-level preview of the project structure:
 
-\- Google Colab training notebook
-
-\- Model architecture
-
-\- Sample results
-
-\- Dataset details
-
-
-
-\## How to run
-
-1\. Open the Google Colab notebook.
-
-2\. Upload your dataset.
-
-3\. Train the model.
-
-
+📁 Disaster Image Segmentation
+│
+├── data/
+│   ├── images/        # Input satellite images
+│   ├── masks/         # Annotation masks
+│
+├── models/
+│   └── unet_model.h5  # Saved trained model
+│
+├── notebooks/
+│   └── training.ipynb # Main model training notebook
+│
+└── README.md
 
